@@ -2,6 +2,7 @@ import { User } from 'lucide-react'
 
 import Image from 'next/image'
 import NlwLogo from '../assets/nlw-spacetime-logo.svg'
+import { Copyright } from '@/components/Copyright'
 
 export default function Home() {
   return (
@@ -52,18 +53,7 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Copyright */}
-        <div className="text-sm leading-relaxed text-gray-200">
-          Feito com 💜 no NLW da{' '}
-          <a
-            className="underline hover:text-gray-100"
-            target="_blank"
-            href="https://rocketseat.com.br"
-            rel="noreferrer"
-          >
-            Rocketseat
-          </a>
-        </div>
+        <Copyright />
       </div>
 
       {/* Right */}
